@@ -2,7 +2,9 @@
 
 jQuery 의 기본적인 APIs 로 만들어진 기본 웹어플리케이션입니다. 자세한 사용법은 [Quickstart Overview 페이지]()를 참고하세요.
 
-# 빠르게 시작하기 (Let's get started quickly)
+![](https://raw.githubusercontent.com/KoreaHTML5/quickstart-jquery/74a56d4ed60db61d5d982648e5341ca507881e6f/snapshot.png)
+
+# 빠르게 시작하기
 
 1. 마지막으로 릴리즈 된 버전을 [여기에서]() 다운로드 하세요.
 1. 원하는 프로젝트 경로에 압축을 푸세요 그리고 해당 프로젝트 경로(압출을 푼)로 이동하세요
