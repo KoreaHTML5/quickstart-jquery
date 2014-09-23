@@ -7,6 +7,7 @@
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="stylesheet" href="styles/main.css">
 	<link rel="stylesheet" href="bower_components/chosen/chosen.css">
+	<link rel="stylesheet" href="bower_components/iCheck/skins/all.css">
 </head>
 <body>
 	<div class="container">
@@ -16,7 +17,7 @@
 		</div>
 		<div class="row">
 			<h4>Input box</h4>
-			<input type="text" id="typing"></input>
+			<input type="text" id="typing" style="width:350px" placeholder="Type words and then enter..."></input>
 		</div>
 		<div class="row">
 			<h4>Select with <a href="http://goo.gl/TgKzj">chosen</a> plugin</h4>
@@ -29,9 +30,19 @@
 	            <option value="WebFrameworks">WebFrameworks</option>
 	        </select>
         </div>
+        <div class="row">
+        	<h4>Select with <a href="https://github.com/fronteed/iCheck">iCheck</a></h4>
+        	<ul id="icheck-input">
+	    		<li><input type="radio" name="slogan" value="Hello"><label>Hello</label></li>
+	    		<li><input type="radio" name="slogan" value="Quickstart"><label>Quickstart</label></li>
+				<li><input type="radio" name="slogan" value="jQuery"><label>jQuery</label></li>
+				<li><input type="radio" name="slogan" value="WebFramework"><label>WebFramework</label></li>
+			</ul>
+    	</div>
 	</div>
 	
 	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/iCheck/iCheck.js"></script>
 	<script src="bower_components/chosen/chosen.jquery.js"></script>
 	<script src="scripts/main.js"></script>
 </body>
