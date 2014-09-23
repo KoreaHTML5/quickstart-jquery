@@ -1,0 +1,47 @@
+html, body {
+	margin: 0;
+	padding: 10px;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 730px;
+}
+
+.jumbotron {
+	padding-top: 48px;
+	padding-bottom: 48px;
+	padding-right: 64px;
+	padding-left: 64px;
+	margin-bottom: 30px;
+	background-color: #eee;
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+	border-radius: 6px;
+}
+
+.row {
+	margin: 30px 0;
+}
+
+.row {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+h4 {
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+}

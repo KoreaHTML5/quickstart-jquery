@@ -1,0 +1,8 @@
+{
+  "name": "quickstart-jquery",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "chosen": "https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip"
+  }
+}
