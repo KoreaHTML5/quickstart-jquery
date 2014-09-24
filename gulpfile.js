@@ -1,6 +1,6 @@
 /**
  *
- *  Quickstart gulpfile.js, This has changed come from Web Starter Kit
+ *  Quickstart gulpfile.js, This file based on Web Starter Kit
  *
  *  Licensed under Apache License, Copyright 2014 Google Inc.
  *  See the LICENSE for more details of licence
