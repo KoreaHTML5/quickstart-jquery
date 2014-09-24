@@ -14,6 +14,27 @@ jQuery 의 기본적인 APIs 로 만들어진 기본 웹어플리케이션입니
 1. 개발이 끝났다면 ```gulp``` 명령으로 당신의 어플리케이션을 최적화 해보세요 그리고 `dist` 폴더에 어플리케이션 코드가 잘 최적화 되었는지 확인하세요.
 1. ```gulp serve:dist``` 로 최적화된 코드의 동작을 확인하세요
 
+# Custom task for this project
+
+## `assets` task
+
+이 프로젝트에서는 전용 테스크가 추가되어 있습니다. 테스크 이름은 `assets` 이며 jQuery 플러그인에서 추가로 사용하는 스타일과 이미지를 추가로 복사 합니다.
+
+```
+// Copy the files associated with components
+gulp.task('assets', function () {
+  return gulp.src([
+    'bower_components/iCheck/skins/**/*',
+    '!bower_components/iCheck/skins/all.css',
+    'bower_components/chosen/chosen-sprite@2x.png',
+    'bower_components/chosen/chosen-sprite.png',
+  ], {
+    dot: true
+  }).pipe(gulp.dest('dist/styles'))
+    .pipe($.size({title: 'copy'}));
+});
+```
+
 # Awesome jQuery Plugins
 
 - [Chosen: A jQuery Plugin by Harvest to Tame Unwieldy Select Boxes](http://goo.gl/TgKzj)	
