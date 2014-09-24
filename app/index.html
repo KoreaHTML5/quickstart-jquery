@@ -5,14 +5,23 @@
 	<title>Quckstart for jQuery</title>
 	<meta name="description" content="">
 	<link rel="shortcut icon" href="/favicon.ico">
+	
+	<!-- build:css styles/main.css -->
 	<link rel="stylesheet" href="styles/main.css">
-	<link rel="stylesheet" href="bower_components/chosen/chosen.css">
-	<link rel="stylesheet" href="bower_components/iCheck/skins/all.css">
+	<!-- endbuild -->
+
+	<!-- build:css styles/vendor.css -->
+	<link rel="stylesheet" href="../bower_components/iCheck/skins/all.css">
+	<link rel="stylesheet" href="../bower_components/chosen/chosen.css">
+	<!-- endbuild -->
 </head>
 <body>
 	<div class="container">
 		<div class="jumbotron">
 			<h1 id="slogan">Hello, Quick start</h1>
+			<h2>
+				<img class="logo" src="images/logo-jquery@2x.png">
+			</h2>
 			<p class="lead"></p>
 		</div>
 		<div class="row">
@@ -41,9 +50,14 @@
     	</div>
 	</div>
 	
-	<script src="bower_components/jquery/dist/jquery.js"></script>
-	<script src="bower_components/iCheck/iCheck.js"></script>
-	<script src="bower_components/chosen/chosen.jquery.js"></script>
+	<!-- build:js scripts/vendor.js -->
+	<script src="../bower_components/jquery/dist/jquery.js"></script>
+	<script src="../bower_components/iCheck/iCheck.js"></script>
+	<script src="../bower_components/chosen/chosen.jquery.js"></script>
+	<!-- endbuild -->
+
+	<!-- build:js scripts/main.min.js -->
 	<script src="scripts/main.js"></script>
+	<!-- endbuild -->
 </body>
 </html>

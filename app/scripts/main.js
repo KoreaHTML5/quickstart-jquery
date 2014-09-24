@@ -22,13 +22,12 @@ $('#icheck-input').iCheck({
   	cursor: true,
   	checkboxClass: 'icheckbox_minimal',
     radioClass: 'iradio_minimal',
-	increaseArea: '20%' // optional
+    increaseArea: '20%'
 });
 
 // Handle checked event fired
 $('#icheck-input input').on('ifChecked', function(e){
-  	console.log(e);
   	if (e.type === 'ifChecked') {
-  		$('#slogan').text($(e.target).val());		
+  		  $('#slogan').text($(e.target).val());
   	}
 });

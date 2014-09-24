@@ -13,30 +13,7 @@ html, body {
 	max-width: 730px;
 }
 
-.jumbotron {
-	padding-top: 48px;
-	padding-bottom: 48px;
-	padding-right: 64px;
-	padding-left: 64px;
-	margin-bottom: 30px;
-	background-color: #eee;
-	text-align: center;
-	border-bottom: 1px solid #e5e5e5;
-	border-radius: 6px;
-}
-
-.row {
-	margin: 30px 0;
-}
-
-.row {
-	position: relative;
-	min-height: 1px;
-	padding-right: 15px;
-	padding-left: 15px;
-}
-
-h4 {
+.container h4 {
 	font-size: 18px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -46,16 +23,44 @@ h4 {
 	color: inherit;
 }
 
+.jumbotron {
+	padding-top: 48px;
+	padding-bottom: 48px;
+	padding-right: 64px;
+	padding-left: 64px;
+	margin-bottom: 30px;
+	background-color: #0769AD;
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+	border-radius: 6px;
+}
+
+.jumbotron h1 {
+	color:#fff;
+}
+
+.jumbotron h2 {
+	max-width: 300px
+}
+
+.row {
+	position: relative;
+	margin: 30px 0;
+	min-height: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
 ul#icheck-input {
 	padding: 0;
 }
 
-#icheck-input li {
+ul#icheck-input li {
 	list-style-type: none;
 	padding: 0;
 }
 
-#icheck-input label {
+ul#icheck-input label {
 	margin-left: 10px;
 	font-family: inherit;
 	font-size: 16px;
